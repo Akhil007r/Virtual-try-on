@@ -1,0 +1,28 @@
+{
+  "name": "virtual-try-on",
+  "version": "1.0.0",
+  "description": "Virtual try On based on Products",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "Virtual-try-on ",
+    "lens wear"
+  ],
+  "author": "Akhilesh.R",
+  "license": "MIT",
+  "peerDependencies": {
+    "next": "^13.0.0",
+    "react": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/react": "^18.3.12",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.7.2"
+  }
+}
