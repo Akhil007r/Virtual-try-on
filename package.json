@@ -1,6 +1,6 @@
 {
   "name": "virtual-try-on",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Virtual try On based on Products",
   "main": "index.ts",
   "scripts": {
