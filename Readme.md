@@ -78,7 +78,6 @@ export default App;
 ## Authors
 
 Akhilesh.R
-[@Akhil007r](https://github.com/Akhil007r)
 
 ## Version History
 
