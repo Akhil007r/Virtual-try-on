@@ -17,7 +17,7 @@ import { useEffect, useRef, useState } from 'react';
 export function useFitMixWidget(apiKey: any, fitmixInstanceRef: any,width?:any,height?:any) {
   const [isFitmixTriggred, setIsFitmixTriggred] = useState(false);
   useEffect(() => {
-    if (typeof window !== 'undefined' && window.FitMix && !fitmixInstanceRef.current && !isFitmixTriggred) {
+    if (typeof window !== 'undefined' && window.FitMix && !fitmixInstanceRef.current && !isFitmixTriggred && apiKey ) {
       setIsFitmixTriggred(true);
       const params = {
         apiKey,

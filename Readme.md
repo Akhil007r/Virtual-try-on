@@ -78,12 +78,16 @@ export default App;
 ## Authors
 
 Akhilesh.R
+[@Akhil007r](https://github.com/Akhil007r)
 
 ## Version History
 
 * 0.1
     * Initial Release
-
+* 2.0
+    * Supports Yarn Install
+* 2.0.1 
+    * API Key Issues Handled
 
 
 ## Acknowledgments
